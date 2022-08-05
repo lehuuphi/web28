@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  .container{
+    margin: 0 auto;
+    width: 1000px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+   /* Loai bo khoang trong 2 cot ngoai cung */
+    margin-left: -5px;
+    margin-right: -5px;
+   /* Dat khoang trong giua cac hang */
+  /*  row-gap: 10px;*/
+  }
+  .row > * {
+   /* Dat khoang trong giua cac cot */
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+  .col-1 {
+    flex: 0 1 8.333333%;
+  }
+  .col-2 {
+    flex: 0 1 16.666667%;
+  }
+  .col-3 {
+    flex: 0 1 25%;
+  }
+  .col-4 {
+    flex: 0 1 33.333333%;
+  }
+  .col-5 {
+    flex: 0 1 41.666667%;
+  }
+  .col-6 {
+    flex: 0 1 50%;
+  }
+  .col-7 {
+    flex: 0 1 58.333333%;
+  }
+  .col-8 {
+    flex: 0 1 66.666667%;
+  }
+  .col-9 {
+    flex: 0 1 75%;
+  }
+  .col-10 {
+    flex: 0 1 83.333333%;
+  }
+  .col-11 {
+    flex: 0 1 91.666667%;
+  }
+  .col-12 {
+    flex: 0 1 100%;
+  }
+
+
+  .menu-item{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: black;
+    margin-right: 23px;
+    font-weight: 500;
+  }
+  .menu-item:hover{
+    background-color: #d4a28d;
+    transition-duration: 1s;
+    border-radius: 7px;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+  }
+  .logo{
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    align-content: center;
+  }
+  .row{
+    background-color: #FEF9F7;;
+  }
+  .btn-contact{
+    background: #f05510;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: white;
+  }
+  .btn-contact:hover{
+    background-color: rgb(220, 151, 132);
+    transition-duration: 1s;
+  }
+
+
+  .banner{
+    height: 457px;
+    background-image: url(https://malina.artstudioworks.net/wp-content/uploads/2018/10/home-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner1{
+    height: 457px;
+    background-image: url(https://cungdi.vn/content/images/ews1542612967.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner2{
+    height: 457px;
+    background-image: url(https://cungdi.vn/content/images/ews1542612967.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner3{
+    height: 457px;
+    background-image: url(https://malina.artstudioworks.net/wp-content/uploads/2018/10/home-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .hotel-name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .hotel-location{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #5E6D77
+  }
+  .hotel-rating{
+    font-size: 14px;
+    color: #5191FA;
+    margin-right: 10px;
+  }
+  .hotel-price {
+    font-size: 16px;
+    color: #1A2B50;
+    font-weight: 900;
+}
+.hotel-content{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #5191FA;
+}
+.content-footer{
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hotel-heading{
+font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+.header1{
+ background:#fef9f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location-image{
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+.location-image:hover{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+.locatin-name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tour-name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-left: 13px;
+    padding: 20px 0 0 10px;
+}
+.tour-decription{
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(18, 58, 50, 0.5);
+    padding: 15px 0 0 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.rental-icon{
+    margin-bottom: 20px;
+}
+.rental-price{
+margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+.rental-image{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.rental-image:hover{
+    transform: scale(1.1);
+    border-radius: 60%;
+}
+
+.hotel-image{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.hotel-image:hover{
+    transform: scale(1.1);
+}
+.tour-image{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.tour-image:hover{
+    transform: scale(1.1);
+    border-radius: 10%;
+}

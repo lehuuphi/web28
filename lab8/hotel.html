@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="header1">
+      <div class="container">
+        <div class="row conten1">
+          <div class="col-6">
+            <h3 class="logo">💖HUUPHI-TRAVEL💖</h3>
+          </div>
+          <div class="col-6">
+            <div class="menu">
+              <div class="menu-list">
+                <a href="index.html" class="menu-item"> HOME</a>
+                <a href="hotel.html" class="menu-item"> HOTEL </a>
+                <a href="tour.html" class="menu-item"> TOUR </a>
+                <a href="rentar.html" class="menu-item">RENTAR </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner2"></div>
+    <div class="container">
+      <div class="hotel">
+        <h3 class="hotel-heading">Luxury resort hotel</h3>
+        <div class="hotel1">
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/167411799-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/74264099-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/169474401-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/60337007-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/167411799-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/74264099-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/169474401-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/60337007-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/167411799-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/74264099-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/169474401-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/60337007-680x630.jpg"
+                alt="hotel"
+                class="hotel-image"
+              />
+              <div class="hotel-content">
+                <p class="hotel-name">EnVision Hotel Boston</p>
+                <p class="hotel-location">Boston, MA, USA</p>
+                <p class="hotel-rating">3.7/5 Very Good</p>
+                <p class="hotel-price">$30.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="content-footer">
+          <div class="author">💖 Hữu Phi 💖</div>
+          <div class="coppy">copy-right : Lê Hữu Phi.All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

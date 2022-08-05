@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 25px;
+    padding: 5px;
+}
+.container{
+   margin-left: auto;
+   margin-right: auto;
+   width: 1310px;
+}
+.post-meta{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+}
+.link-post{
+    width: calc((100% - 60px) / 4 );
+     text-decoration: none;
+     padding-top: 5px;
+     
+}
+.post-image{
+    max-width: 100%;
+}
+.post-view{
+    font-size: 13px;
+    padding-top: 6px;
+    color: black;
+}
+.post-view:hover{
+    color: rgb(23, 223, 186);
+}
+.post-decription{
+    font-size: 10px;
+}
+.post-decription{
+    color: black;
+}
+.post-decription:hover{
+    color: rgb(23, 223, 186);
+}
+.list-anime2{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.anime1-heading{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list-anime{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list-anime a{
+    width: calc((100% - 30px) / 4);
+}
+.anime-picture{
+    max-width: 100%;
+    width: 40%;
+}
+.anime-descroription{
+    width: calc(60%-5px);
+    color: black;
+}
+.anime{
+    display: flex;
+    gap: 10px;
+}
+
+.anime1-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list-anime1{
+     width: calc(( 100% - 50px ) / 4);
+     border-radius: 30px 30px 0 0;
+     overflow: hidden;
+}
+.decription{
+   text-decoration: none;
+}
+.anime1-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.comic1{
+    display: flex;
+     gap: 10px;
+}
+.list-comic{
+    width: calc((100% - 60px) / 6 );
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+.link-comic{
+    text-decoration: none;
+}
+.decreption{
+    color: #333;
+}
+
+
+.colletion1{
+    display: flex;
+    gap: 10px;
+}
+
+
+.view-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list-view{
+    width: calc((1310px - 50px) / 4 );
+}
+.link-view{
+    text-decoration: none;
+}
+.view-dexription{
+    color:black;
+}
+
+
+
+
+.charts-content{
+ display: flex;   
+ flex-wrap: wrap;
+ gap: 10px;
+}
+.charts-list{
+ display: flex;
+ width: calc(( 100% - 50px) / 6 );
+}
+
+
+
+
+
+
+
+.allanime-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list-allanime{
+    width: calc((100% - 60px) / 4 );
+}
+.link-allanime{
+    text-decoration: none;
+}
+.allanime-decription{
+    color: black;
+    font-size: 19px;
+}
+.btn-button{
+    background: #d80f16;
+    border-radius: 2px;
+    clear: both;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 6px 12px;
+    text-align: center;
+    user-select: none;
+    width: 100px;
+}
+.btn{
+    display: flex;
+   margin-top: 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.test{
+    top: 70px;
+}
+.movie:hover .btn-play{
+
+}

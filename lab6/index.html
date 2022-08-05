@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+           background: #000;
+        }
+        .box-bigger{
+            height: 500px;
+            color: antiquewhite;
+        }
+        .bg-red{
+            background-color: red;
+        }
+        .gb-blue{
+            background-color: blue;
+        }
+        .bg-pink{
+            background-color: pink;
+        }
+        .bg-aqua{
+            background-color: aqua;
+        }
+        .bg-green{
+            background-color: green;
+        }.relative{
+            /* cac phan tu xung qunh k bi anh huong  
+             relative thi can chinh vi tri theo goc vi tri ban dau 
+              chi ap dung duoc toi da 3 thuoc tinh ( top left rift bottom)
+              su dung de tao moc cho cac phan tu absolute can theo
+             */
+            position: relative;
+        }
+        .absolute{
+            width: unset;
+            height: unset;
+            /*
+             cac phan tu xum quanh bi anh huong, no coi nhu thang absolute khong to tai 
+             mac dinh k co phan tu cha nao thi cos posison thi can theo go viewpost
+             thuong su dung absolute ket hop vs phan tu cha khac static
+             absolute se can goc la phan tu cha gan nhat 
+            */
+           position: absolute;
+           /* co the ap dung dong thoi top left right bottom */
+           
+        }
+        .fixed{
+        }
+    </style>
+</head>
+<body>
+    <div class="box gb-blue"> static</div>
+    <div class="box bg-pink relative" style="top:10px">  relative</div>
+    <div class="box bg-red ">  </div>
+    <div class="box bg-green"></div>
+    <div class="box bg-aqua" ></div>
+    <div class="box bg-green "></div>
+    <div class="box-bigger" style="background-color: red ;">
+        <div class="box bg-aqua absolute" >  adjaksdja  </div>
+        <div class="box bg-green"> static </div>
+    </div>
+</body>
+</html>
+
+ cha:hover con 
+ xu dung phong to hinh anh 
+  tranform scale(1.2) */

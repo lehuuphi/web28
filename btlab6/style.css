@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 1300px;
+}
+.row {
+  display: flex;
+  /* Loai bo khoang trong 2 cot ngoai cung */
+  margin-left: -5px;
+  margin-right: -5px;
+  /* Dat khoang trong giua cac hang */
+  /*  row-gap: 10px;*/
+}
+.row > * {
+  display: flex;
+  /* Dat khoang trong giua cac cot */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-1 {
+  flex: 0 1 8.333333%;
+}
+.col-2 {
+  flex: 0 1 16.666667%;
+}
+.col-3 {
+  flex: 0 1 25%;
+}
+.col-4 {
+  flex: 0 1 33.333333%;
+}
+.col-5 {
+  flex: 0 1 41.666667%;
+}
+.col-6 {
+  flex: 0 1 50%;
+}
+.col-7 {
+  flex: 0 1 58.333333%;
+}
+.col-8 {
+  flex: 0 1 66.666667%;
+}
+.col-9 {
+  flex: 0 1 75%;
+}
+.col-10 {
+  flex: 0 1 83.333333%;
+}
+.col-11 {
+  flex: 0 1 91.666667%;
+}
+.col-12 {
+  flex: 0 1 100%;
+}
+
+.nav-item {
+  height: 20px;
+  background-color: darkgrey;
+  text-align: center;
+}
+.nav-item-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+.logo-image-lazada {
+  width: 127px;
+  height: 40px;
+}
+.image-momo {
+  width: 188px;
+  height: 45px;
+}
+.logo {
+  margin-top: 10px;
+}
+.baner-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 150px;
+}
+.banner-content {
+  margin-right: 0px;
+}
+.list-menu {
+  list-style: none;
+  line-height: 30px;
+  width: 280px;
+}
+.list-menu {
+  background: #fff;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.list-menu-link-item {
+  text-decoration: none;
+  color: black;
+  display: block;
+  position: relative;
+  text-indent: 10px;
+
+}
+
+
+
+
+
+.list-menu-link-item:hover{
+  background-color: rgb(235, 231, 225);
+}
+
+.sub-menu-link {
+  display: flex;
+  align-content: flex-start;
+  list-style: none;
+}
+.sub-menu-link-li {
+  color: rgb(115, 98, 98);
+  text-decoration: none;
+}
+
+.sub-menu-link {
+  background-color: white;
+  width: 200px;
+  padding: 1px;
+  box-shadow: 0px rgb(27, 27, 26);
+}
+.sub-menu-link-li {
+  color: black;
+  margin-left: 10px;
+}

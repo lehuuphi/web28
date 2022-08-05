@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* Gioi han kich thuoc trong vung chua */
+    max-width: 100%;
+    /* Loai bo phan chan dong (khoang trang nho o duoi hinh anh) */
+    vertical-align: middle;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* Loai bo khoang trong 2 cot ngoai cung */
+    margin-left: -5px;
+    margin-right: -5px;
+
+    /* Dat khoang trong giua cac hang */
+    row-gap: 10px;
+}
+
+.row > * {
+    /* Dat khoang trong giua cac cot */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-1 {
+    flex: 0 1 8.333333%;
+}
+
+.col-2 {
+    flex: 0 1 16.666667%;
+}
+
+.col-3 {
+    flex: 0 1 25%;
+}
+
+.col-4 {
+    flex: 0 1 33.333333%;
+}
+
+.col-5 {
+    flex: 0 1 41.666667%;
+}
+
+.col-6 {
+    flex: 0 1 50%;
+}
+
+.col-7 {
+    flex: 0 1 58.333333%;
+}
+
+.col-8 {
+    flex: 0 1 66.666667%;
+}
+
+.col-9 {
+    flex: 0 1 75%;
+}
+
+.col-10 {
+    flex: 0 1 83.333333%;
+}
+
+.col-11 {
+    flex: 0 1 91.666667%;
+}
+
+.col-12 {
+    flex: 0 1 100%;
+}
+/**/
+.header-item{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 1320px;
+}
+.header-item-link1:hover{
+    color: coral;
+}
+.header-item-link,.header-item-link1{
+    font-size: 12px;
+}
+.header-item-link{
+    color: rgb(19, 52, 198);
+}
+.header-item-link:hover{
+    color: coral;
+    transition: color .5s;
+}
+.header-item-link1{
+    color: #c5c5c5;
+}
+
+.header-container{
+    width: 1188px;
+}
+.header{
+    background-color: antiquewhite;
+    height: 26px;
+}
+.header-item-link{
+    display: flex;
+    margin-top: 5px;
+}
+.header-item-link1{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+/**/
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.logo-image{
+    width: 127px;
+    height: 40px;
+    margin-right: 39px;
+}
+.sale-image{
+    width: 188px;
+    height: 45px;
+}
+.search-box{
+    padding: 13px 19px;
+    width: 668px;
+    border-radius: 5px;
+    height: 45px;
+    background: #eff0f5;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    height: 45px;
+    background-color: coral;
+}
+.search{
+    display: flex;
+}
+.search-icon{
+    color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: center;
+}
+.bi-search{
+    display: flex;
+    margin-top: 14px;
+}
+.bi-cart3{
+    width: 29px;
+    height: 26px;
+    margin-top: 15px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 344px;
+    background-color:#e7d6bc;
+}
+.logo-content{
+    height: 75px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.menu{
+    width: 200px;
+    height: 344px;
+    background-color: azure;
+    background: white;
+}
+.baner-menu-image{
+    width: 988px;
+    height: 344px;
+    margin-left: -10px;
+}
+.menu-list-link{
+    list-style: none;
+}
+.menu-list-link-content{
+    color: #757575;
+    text-decoration: none;
+    line-height: 28px;
+}
+.menu-list{
+    padding-left: 0;
+}
+.menu-list-link-decription{
+    text-decoration: none;
+    font-family: Roboto-Regular;
+}
+.cart-channels{
+    display: flex;
+    height: 40px;
+    width: 278px;
+    background: #ffff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.cart-channels-image{
+    width: 32px;
+    height: 32px;
+}
+.cart-channels-name{
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+}
+.navgation{
+    background-color:#f5f5f5;
+}
+.navgation-title{
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: 22px;
+    font-family: Roboto-Regular;
+}
+.navacation-content{
+    width: 1320px;
+}
+.page{
+    background-color: rgb(250, 255, 255);
+    width:1120px;
+    margin: 0 auto;
+    height: 40px;
+}
+.page-header{
+    display: flex;
+}
+.page-header{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+.page-header-end-link{
+    text-align: end;
+    float: right;
+}
+.page-header-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #f57224;
+
+}
+.page-header-text-one{
+    font-size: 14px;
+    margin-left: 60px;
+    color: #202020;
+}
+.page-header-text-color{
+    margin-left: 20px;
+}
+.page-header-text-color{
+    height: 36px;
+    width: 36px;
+    background: rgb(180, 19, 19);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.container-cart-decription{
+   margin-left: 10px;
+   margin-bottom: 4px;
+}
+.cart-price{
+    margin-left: 10px;
+    color: #f57224;
+}
+.price{
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #080707;
+}
+.discount{
+      color: #928d8d;
+}
+.container-cart{
+    height: 310px;
+    width: 186px;
+    cursor: pointer;
+}
+.container-cart:hover{
+ box-shadow: 2px 2px 2px rgb(37, 39, 38);
+ transition-delay: .2s;
+}
+.collection-name{
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    color: #212121;
+    text-align: center;
+    margin-left: 25%;
+}
+.collection{
+    width: 100%;
+    height: 100%;
+    background: #f8f6f6;
+}
+.collection:hover{
+    box-shadow: 2px 2px rgb(97, 99, 98);
+}
+.collection-item{
+    margin: 6px auto 0;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    color: #757575;
+    margin-left: 30%;
+}
+.product{
+    width: 100%;
+    height: 100%;
+    background: #f5f3f1;
+}
+.product-image{
+    margin-left: 25%;
+    margin-top: 15px;
+}
+.product-decription{
+    margin-left: 29%;
+}
+.product:hover{
+    box-shadow: 2px 2px cadetblue;
+}

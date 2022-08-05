@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  margin: 2px auto;
+  width: 1200px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ /* Loai bo khoang trong 2 cot ngoai cung */
+  margin-left: -5px;
+  margin-right: -5px;
+ /* Dat khoang trong giua cac hang */
+  row-gap: 10px;
+}
+.row > * {
+ /* Dat khoang trong giua cac cot */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-1 {
+  flex: 0 1 8.333333%;
+}
+.col-2 {
+  flex: 0 1 16.666667%;
+}
+.col-3 {
+  flex: 0 1 25%;
+}
+.col-4 {
+  flex: 0 1 33.333333%;
+}
+.col-5 {
+  flex: 0 1 41.666667%;
+}
+.col-6 {
+  flex: 0 1 50%;
+}
+.col-7 {
+  flex: 0 1 58.333333%;
+}
+.col-8 {
+  flex: 0 1 66.666667%;
+}
+.col-9 {
+  flex: 0 1 75%;
+}
+.col-10 {
+  flex: 0 1 83.333333%;
+}
+.col-11 {
+  flex: 0 1 91.666667%;
+}
+.col-12 {
+  flex: 0 1 100%;
+}
+.nav {
+  height: 65px;
+  background-color: #fff;
+}
+.nav-content {
+  display: flex;
+}
+.nav-list {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+}
+.nav-image {
+  margin-top: 17px;
+  margin-left: 70px;
+}
+.nav-list-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.section-content {
+  display: flex;
+}
+.sec-heading {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.btn {
+  text-decoration: none;
+  background-color: #ff5353;
+  padding: 20px;
+  border-radius: 3px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  min-width: 160px;
+  line-height: 0.8;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: #000;
+}
+.tag-line {
+  color: #565656;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 0.8;
+  letter-spacing: 2.8px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.banner {
+  background-image: url("https://demo.themeies.com/silon/images/bg-1.jpg");
+}
+.banner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-item_complete {
+  font-size: 58px;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+.sec-content-decription{
+  text-align: center;
+}
+.sec-content-decription-icon{
+  text-decoration: none;
+}
+.sec-content-decription-one{
+  color: rgb(219, 75, 75);
+}
+.sec-content-decription-one:hover{
+  color: rgb(27, 210, 152);
+}
+.sec-content-decription-one1{
+  font-size: 20px;
+}
+.baner-one{
+  background-color: #eae2d8;
+  margin-top: 20px;
+}
+.baner-item2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+  text-transform: uppercase;
+}
+.banner-content{
+  text-align: center;
+}
+.product-item-content a{
+  text-align: center;
+  text-decoration: none;
+}
+.product-item-content {
+  text-align: center;
+}
+.row-banner{
+  background-color:#e9e2d8 ;
+  height: 400px;
+  width: 1519px;
+  margin: 2px auto;
+}
+.footer-navigation li{
+  color:#888888;
+  line-height: 35px;
+}
+.image{
+  width: 70px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.Copy-right{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.Copyright-hr{
+  color: #e9e2d8;
+}
+.Copyright{
+  padding-top: 70px;
+}
+.abou-us{
+  padding-top: 50px;
+  margin-top: 60px;
+}
