@@ -1,15 +1,8 @@
-function findDayOfMonth(month, year) {
-  if( month == 1 || month == 3 || month == 5 ||month == 7 ||month == 8 ||month == 10 ||month == 12 ){
-   return '31 ngày';
-  }else if(month == 4 || month == 6 || month == 9 ||month == 11 ){
-   return '30 ngày';
-  } else if((month == 2 && year % 4 == 0 && year % 100 != 0) || year % 400 == 0 )
- {
-   return '29 ngày'
- }else{
-   return '28 ngày'
- }
- }
- console.log(findDayOfMonth(2,2022))
- console.log(findDayOfMonth(3,2025))
- console.log(findDayOfMonth(2,2024))
+function getRandNumbers (min, max, length) {
+  let array=[length]
+  for (var i = 0; i < length; i++) {
+      array[i] = Math.random() * (max - min) + min
+  }
+  return array
+}
+console.log(getRandNumbers(2,3,4))
